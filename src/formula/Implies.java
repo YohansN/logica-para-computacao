@@ -3,10 +3,10 @@ package formula;
 import java.util.Objects;
 
 public class Implies extends Formula{
-    private Atom left;
-    private Atom right;
+    private Formula left;
+    private Formula right;
 
-    public Implies( Atom left, Atom right){
+    public Implies( Formula left, Formula right){
         super();
         this.left = left;
         this.right = right;

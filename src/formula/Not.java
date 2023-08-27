@@ -3,8 +3,8 @@ package formula;
 import java.util.Objects;
 
 public class Not extends Formula{
-    private Atom inner;
-    public Not(Atom inner){
+    private Formula inner;
+    public Not(Formula inner){
         super();
         this.inner = inner;
     }

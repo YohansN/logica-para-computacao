@@ -3,10 +3,10 @@ package formula;
 import java.util.Objects;
 
 public class And extends Formula{
-    private Atom left;
-    private Atom right;
+    private Formula left;
+    private Formula right;
 
-    public And(Atom left, Atom right){
+    public And(Formula left, Formula right){
         super();
         this.left = left;
         this.right = right;

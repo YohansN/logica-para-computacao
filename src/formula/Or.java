@@ -3,10 +3,10 @@ package formula;
 import java.util.Objects;
 
 public class Or extends Formula{
-    private Atom left;
-    private Atom right;
+    private Formula left;
+    private Formula right;
 
-    public Or(Atom left, Atom right){
+    public Or(Formula left, Formula right){
             super();
             this.left = left;
             this.right = right;
