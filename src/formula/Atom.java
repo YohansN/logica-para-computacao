@@ -2,7 +2,7 @@ package formula;
 
 import java.util.Objects;
 
-public class Atom {
+public class Atom extends Formula{
     private String name;
 
     public String getName() {
@@ -14,7 +14,7 @@ public class Atom {
         this.name = name;
     }
 
-    public boolean IsEqual(Object other) {
+    public boolean isEqual(Object other) {
         return this.equals(other);
     }
 
